@@ -32,9 +32,8 @@ button5.addEventListener("click", () => {
 
 let button6 = document.getElementById("btn6")
 button5.addEventListener("click", () => {
-    let imgs = document.createElement("img")
-    imgs.src = "./red-logo";
-    imgs.setAttribute("width", "20%");
-    document.appendChild(imgs);
+    let img = document.getElementById("imgs")
+    img.setAttribute("width", "20%");
+    document.appendChild(img);
 
 })
