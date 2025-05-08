@@ -31,7 +31,7 @@ button5.addEventListener("click", () => {
 })
 
 let button6 = document.getElementById("btn6")
-button5.addEventListener("click", () => {
+button6.addEventListener("click", () => {
     let img = document.getElementById("imgs")
     img.setAttribute("width", "20%");
     document.appendChild(img);
